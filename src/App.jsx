@@ -605,11 +605,23 @@ export default function App() {
         </section>
 
         <div className="intro-copy">
-          Votes cast in the Seanad Chamber, referred to formally as{" "}
-          <strong>divisions of the House</strong>, are an intrinsic part of
-          parliamentary business. Each Senator is entitled to cast a vote and in
-          doing so can influence each piece of business considered by
-          Parliament.
+          <p className="intro-copy__body">
+            Votes cast in the Seanad, referred to formally as{" "}
+            <strong>divisions of the House</strong>, are an intrinsic part of
+            parliamentary business. Each Senator is entitled to cast a vote and
+            in doing so can influence each piece of business considered by
+            Parliament.
+          </p>
+          <p className="intro-copy__series">
+            Vote Explorer is part of our{" "}
+            <a
+              className="vote-debate-meta__link"
+              href="https://bubcass.github.io/open-data-insights/"
+            >
+              Open Data Insights series
+            </a>
+            .
+          </p>
         </div>
 
         <section className="hero-controls">
