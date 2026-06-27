@@ -534,7 +534,7 @@ p {
 }
 
 .vote-debate-meta__link {
-    color: #5e5a52;
+    color: var(--text-soft);
     text-decoration: none;
     font-size: 1.05rem;
     line-height: 1.4;
@@ -919,10 +919,8 @@ p {
 }
 
 .vote-context-card__link {
-    color: var(--link);
-    text-decoration: underline;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 3px;
+    color: var(--text-soft);
+    text-decoration: none;
     font-size: 0.98rem;
     line-height: 1.45;
 }
@@ -930,6 +928,9 @@ p {
 .vote-context-card__link:hover,
 .vote-context-card__link:focus-visible {
     color: var(--link-hover);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
 }
 
 .vote-context-card__link::after {
@@ -1002,9 +1003,7 @@ p {
 
 .member-card-link .member-card__identity h2 {
     color: var(--text);
-    text-decoration: underline;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 3px;
+    text-decoration: none;
     transition: color 0.15s ease;
 }
 
